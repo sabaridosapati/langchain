@@ -22,7 +22,7 @@ Dynmic_template_text="""
 # Prompt template
 template = PromptTemplate(
     template=Dynmic_template_text,
-    input_variables = ['context'],
+    input_variables = ['context','question'],
     validatation=True)
 
 print(template.input_variables)
